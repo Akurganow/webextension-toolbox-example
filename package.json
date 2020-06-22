@@ -1,0 +1,37 @@
+{
+  "name": "web-ext-clear",
+  "version": "0.0.1",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "latest"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "css-loader": "^3.6.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.2.0",
+    "eslint-config-webextension": "^0.6.1",
+    "fork-ts-checker-webpack-plugin": "^5.0.4",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.9.0",
+    "modern-css-reset": "^1.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "svg-sprite-loader": "^5.0.0",
+    "svgo": "^1.3.2",
+    "svgo-loader": "^2.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "typescript-plugin-css-modules": "^2.3.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
